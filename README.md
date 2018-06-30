@@ -8,6 +8,6 @@ use namespace 'PHPLib\Core\ImageUpload' to access the ImageUpload class. </p>
 $imageUpload = new ImageUpload();  <br/>
 $imageUpload->setUploadPath('path/to/upload');  <br/>
 $imageUpload->upload('File Control Name');  <br/><br/>
-<p> Optional methods to display uploaded / invalid files </p>
+<p> Optional methods to display uploaded / invalid files. </p>
 $imageUpload->displayInvalidFiles();  <br/>
 $imageUpload->displayUploadedFiles();  <br/>
