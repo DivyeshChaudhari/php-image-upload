@@ -99,8 +99,6 @@ class ImageUpload
                 }
                 $this->invalidFiles = $invalidFiles;
                 $this->uploadedFiles = $fileInfo;
-                $results = array('fileInfo' => $fileInfo, 'error' => $error, 'success' => $success);
-                return $results;
             }
         } catch (Exception $e) {
             echo $e->getMessage();
