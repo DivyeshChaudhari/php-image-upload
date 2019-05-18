@@ -27,7 +27,7 @@ class ImageUpload
 
     public function getMimeType()
     {
-        if (empty($mimeType)) {
+        if (empty($this->mimeType)) {
             $this->mimeType = array('image/jpeg', 'image/gif', 'image/png', 'image/jpg');
         }
         return $this->mimeType;
@@ -40,7 +40,7 @@ class ImageUpload
 
     public function getImageType()
     {
-        if (empty($imageType)) {
+        if (empty($this->imageType)) {
             $this->imageType = array("jpeg", "png", "jpg", "gif");
         }
         return $this->imageType;
