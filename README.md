@@ -1,5 +1,5 @@
 # php-image-upload
-A class libarary which allows you to upload images without writing any validation and lengthy code.
+A class library which allows you to upload images without writing any validation and lengthy code.
 <h2>Installation</h2>
 <p>Clone or Download the package.<br/>
 Include ImageUpload.php file in your page.<br/>
